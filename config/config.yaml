@@ -1,0 +1,21 @@
+data_sources:
+  traffic_csv: "data/traffic.csv"
+  clicks_csv: "data/clicks.csv"
+  weather_csv: "data/weather.csv"
+  sql:
+    enabled: false
+    connection_string: "sqlite:///data/ads.db"
+    query: "SELECT * FROM campaign_performance"
+
+report:
+  client_name: "ABC Corporation"
+  week_start: "2025-11-24"
+  week_end: "2025-11-30"
+  output_dir: "output"
+  output_formats: ["pdf", "pptx"]
+
+llm:
+  enabled: true
+  provider: "gemini_http"
+  model: "gemini-2.5-flash-preview-09-2025"
+  max_tokens: 800
