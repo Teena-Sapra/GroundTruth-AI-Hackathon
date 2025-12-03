@@ -1,8 +1,8 @@
-# 🚀 H-001 | The Automated Insight Engine
+# H-001 | The Automated Insight Engine
 
 **Tagline:** Drop raw campaign data → get beautiful, AI-written PDF & PPT insights — fully automated.
 
-## 🧩 1. The Problem (Real AdTech Scenario)
+## 1. The Problem (Real AdTech Scenario)
 
 Account Managers in AdTech spend **4–6 hours every week**:
 
@@ -13,7 +13,7 @@ Account Managers in AdTech spend **4–6 hours every week**:
 
 This delays insights and hides overspending.
 
-### 💡 My Solution
+### My Solution
 
 The **Automated Insight Engine**:
 
@@ -23,7 +23,7 @@ The **Automated Insight Engine**:
 - Uses **Gemini via REST API** for executive summaries
 - Outputs beautifully formatted **PDF + PPT**
 
-## 🎯 2. Expected End Result
+## 2. Expected End Result
 
 ### Input:
 
@@ -34,12 +34,12 @@ The **Automated Insight Engine**:
 
 ### Output:
 
-- 📄 PDF Report
-- 📊 PPT Deck
+- PDF Report
+- PPT Deck
 
 Both fully automated.
 
-## 🛠️ 3. Technical Approach
+## 3. Technical Approach
 
 The Automated Insight Engine follows a clean, modular pipeline that goes from raw CSV files to fully generated PDF + PPT reports using AI.
 
@@ -103,7 +103,7 @@ Using Matplotlib, the engine automatically generates charts. These images are sa
 Finally, the system produces two polished outputs: PDF (ReportLab), PPT Deck (python-pptx).
 Both files are formatted to be ready for client delivery.
 
-## 🧰 5. Tools Used
+## 4. Tools Used
 
 - Python
 - Pandas
@@ -113,7 +113,7 @@ Both files are formatted to be ready for client delivery.
 - Requests (Gemini API)
 - YAML
 
-## ▶️ 6. How to Run
+## 5. How to Run
 
 ```
 # Create a virtual environment
