@@ -1,4 +1,4 @@
-# 🚀 GroundTruth Automated Insight Engine
+# 🚀 H-001 | The Automated Insight Engine
 
 **Tagline:** Drop raw campaign data → get beautiful, AI-written PDF & PPT insights — fully automated.
 
